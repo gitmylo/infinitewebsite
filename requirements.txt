@@ -1,0 +1,4 @@
+flask[async]
+websockets
+requests
+markdown-it-py[linkify,plugins]

@@ -1,0 +1,11 @@
+{
+  "start": {
+    "file": "template_start.html"
+  },
+  "stoptoken": {
+    "raw": "</body>"
+  },
+  "end": {
+    "file": "template_end.html"
+  }
+}
