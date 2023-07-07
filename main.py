@@ -8,7 +8,7 @@ from makeprompt import make_prompt
 
 
 app = Flask(__name__)
-md = (MarkdownIt('commonmark', {'breaks': True, 'html': True}))
+md = (MarkdownIt('commonmark', {'breaks': True, 'html': True, 'linkify': True}).disable('code'))
 
 host = f'http://localhost:5000/api/v1/generate'
 stream_host = f'ws://localhost:5005/api/v1/stream'
